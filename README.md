@@ -18,7 +18,7 @@ Diseñar, implementar y evaluar un sistema inteligente basado en modelos de apre
 ---
 
 ## 📂 Estructura del repositorio
-Clinical-Decompensation-Prediction/
+```Clinical-Decompensation-Prediction/
 ├── README.md
 ├── Samples/
 │ ├── Blood Pressure Data for disease Prediction/
@@ -30,6 +30,7 @@ Clinical-Decompensation-Prediction/
 │ │ └── diabetic_data.csv
 │ └── Diabetes Health Indicators Dataset/
 │ └── data.csv
+```
 
 
 ---
