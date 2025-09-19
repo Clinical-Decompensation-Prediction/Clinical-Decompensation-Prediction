@@ -75,3 +75,39 @@ for modelo in [baseline_LR, modelo_RF, modelo_GB]:
 # 5. Guardar métricas y gráficas
 guardar_metricas()
 guardar_graficas()
+## 📈 Métricas a cumplir
+- **Técnicas**:  
+  - AUROC ≥ 0.80 (objetivo ≥ 0.87)  
+  - F1-Score ≥ 0.65 (objetivo ≥ 0.75)  
+  - Recall ≥ 0.75  
+  - AUPRC como métrica secundaria  
+
+- **Eficiencia**:  
+  - Tiempo de respuesta ≤ 2s por predicción  
+  - Bajo consumo de memoria  
+
+- **Impacto**:  
+  - Reducción ≥ 10% hospitalizaciones evitables  
+  - Lead time ≥ 24h (objetivo 36–48h)  
+  - Tasa de alertas falsas ≤ 20%  
+
+- **Usabilidad**:  
+  - SUS ≥ 80  
+  - Tiempo de respuesta del usuario ≤ 2 min por tarea  
+
+- **Benchmarks**:  
+  - Superar en al menos **+0.05 AUROC y F1** a Logistic Regression y Random Forest baseline.  
+
+## 📌 Licencias y permisos
+- **UCI Diabetes 130-US Hospitals**: uso académico y de investigación (UCI ML Repository).  
+- **Blood Pressure Dataset (Kaggle)**: licencia CC0 (Creative Commons Zero).  
+- **BRFSS 2015 Diabetes Health Indicators (CDC/Kaggle)**: datos públicos, acceso abierto.  
+
+⚠️ Los datasets completos no se incluyen en este repositorio debido a limitaciones de tamaño en GitHub.  
+En su lugar, se proveen samples y los enlaces oficiales.
+
+## 👨‍💻 Autores
+**Maria Fernanda Bolaños**  
+**Fernando Xavier Montaño**  
+Maestría en Inteligencia Artificial
+
