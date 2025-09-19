@@ -3,9 +3,9 @@
 
 ## 📑 Tabla de Contenidos
 - [Objetivo del proyecto](#-objetivo-del-proyecto)
-- [Estructura del repositorio](-#estructura-del-repositorio)
+- [Estructura del repositorio](#-estructura-del-repositorio)
 - [Datasets](#-datasets)
-- [Pseudocódigo inicial](#-pseudocódigo-inicial)
+- [Pseudocódigo inicial](#-pseudocodigo-inicial)
 - [Licencias y permisos](#-licencias-y-permisos)
 - [Métricas a cumplir](#-métricas-a-cumplir)
 - [Autores](#-autores)
@@ -53,7 +53,7 @@ Diseñar, implementar y evaluar un sistema inteligente basado en modelos de apre
 
 ---
 
-## ⚙️ Pseudocódigo inicial
+## Pseudocódigo inicial
 
 ```python
 # 1. Cargar datasets
@@ -114,7 +114,7 @@ En su lugar, se proveen samples y los enlaces oficiales.
 
 ---
 
-## 👨‍💻 Autores
+## Autores
 **Maria Fernanda Bolaños**  
 **Fernando Xavier Montaño**  
 Maestría en Inteligencia Artificial
