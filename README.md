@@ -3,7 +3,7 @@
 
 ## 📑 Tabla de Contenidos
 - [Objetivo del proyecto](#-objetivo-del-proyecto)
-- [Estructura del repositorio](#-estructura-del-repositorio)
+- [Estructura del repositorio](-#estructura-del-repositorio)
 - [Datasets](#-datasets)
 - [Pseudocódigo inicial](#-pseudocódigo-inicial)
 - [Licencias y permisos](#-licencias-y-permisos)
