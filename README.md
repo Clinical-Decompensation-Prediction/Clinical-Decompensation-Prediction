@@ -19,6 +19,7 @@ Diseñar, implementar y evaluar un sistema inteligente basado en modelos de apre
 
 ## 📂 Estructura del repositorio
 ```Clinical-Decompensation-Prediction/
+├── Propuesta de Proyecto
 ├── Diagramas
 ├── README.md
 ├── Samples/
