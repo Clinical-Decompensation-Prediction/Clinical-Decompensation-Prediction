@@ -89,13 +89,13 @@ guardar_graficas()
 
 ## 📈 Métricas a cumplir
 - **Técnicas**:  
-  - AUROC ≥ 0.80 (objetivo ≥ 0.87)  
+  - AUROC ≥ 0.80   
   - F1-Score ≥ 0.65 (objetivo ≥ 0.75)  
   - Recall ≥ 0.75  
   - AUPRC como métrica secundaria  
 
 - **Eficiencia**:  
-  - Tiempo de respuesta ≤ 2s por predicción  
+  - Tiempo de respuesta ≤ 20s por predicción  
   - Bajo consumo de memoria  
 
 - **Impacto**:  
