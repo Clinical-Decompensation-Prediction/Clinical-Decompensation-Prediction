@@ -74,7 +74,7 @@ Se utilizó un **Random Forest Classifier** por su capacidad de manejar variable
 - `n_estimators = 300`  
 - `max_features='sqrt'`
 - `criterion = "gini”` óptimo 
-- Sin SMOTE ni sobremuestreo para mantener distribución real.  
+ 
 
 ### Métricas
 - F1 score (macro)
@@ -103,9 +103,6 @@ Se utilizó un **Random Forest Classifier** por su capacidad de manejar variable
 <p align="center"><em>Figura 1. Matriz de confusión del modelo Random Forest.</em></p>
 
 
-
-
-> El modelo mejora un 8 % en F1 frente a un baseline de regresión logística sin balanceo.
 
 **Variables más influyentes:** HbA1c, presión sistólica y glucosa.  
 **Matriz de confusión:** equilibrio adecuado entre clases (diabetes / hipertensión).
