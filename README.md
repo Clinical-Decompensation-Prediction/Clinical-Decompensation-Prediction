@@ -1,5 +1,5 @@
 
-# 🧠 Sistema Inteligente de Predicción de Descompensaciones Clínicas
+# 🧠 Sistema Inteligente de Predicción de Descompensaciones Clínicas (diabetes tipo 2, hipertensión arterial y/o comorbilidades)
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)
 ![Streamlit](https://img.shields.io/badge/Framework-Streamlit-red.svg)
