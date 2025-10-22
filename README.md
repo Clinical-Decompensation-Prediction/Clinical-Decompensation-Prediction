@@ -46,10 +46,10 @@ El monitoreo continuo de pacientes con enfermedades crónicas genera grandes vol
 ## 📊 Dataset
 
 - **Nombre:** `dataset_balanceado_SMOTEENN.csv`  
-- **Fuente:** Dataset sintético balanceado a partir de datos clínicos anonimizados.  
+- **Fuente:** Dataset sintético balanceado a partir de datos clínicos reales anonimizados.  
 - **Licencia:** Uso académico y de investigación.  
 - **Tamaño:** ~1,000,000 registros y 24 variables.  
-- **Variables principales:** `age`, `blood_glucose_level`, `HbA1c_level`, `systolic_bp`, `diastolic_bp`, `bmi`, `target`.  
+- **Variables principales:** `blood_glucose_level`, `HbA1c_level`, `systolic_bp`, `diastolic_bp`, `bmi`, `target` y `age`.  
 - **Estructura temporal:** columna `visit` para representar series históricas.  
 - **Disponibilidad:** uso interno, no público.
 
