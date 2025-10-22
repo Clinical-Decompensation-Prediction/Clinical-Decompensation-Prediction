@@ -149,12 +149,110 @@ Desarrollada en **Streamlit**, con cuatro secciones principales:
 ---
 
 ### 📁 Estructura del Proyecto
-📦 prediccion_clinica/
+```bash
+prediccion_clinica/
 │
-├── app.py                         # Aplicación principal Streamlit
-├── dataset_balanceado_SMOTEENN.csv # Datos de entrenamiento
-├── README.md                       # Documentación
-└── requirements.txt                 # Dependencias
+├── README.md                         
+│   # Descripción principal del proyecto  
+│
+├── requirements.txt                  
+│   # Dependencias de Python necesarias para ejecutar el sistema  
+│
+├── .gitignore                        
+│   # Archivos y carpetas a ignorar por Git (entornos virtuales, logs, datasets grandes)  
+│
+├── LICENSE                           
+│   # Licencia del proyecto (MIT)  
+│
+├── docs/                             
+│   ├── planificacion.md              
+│   │   # Documento de planificación inicial del proyecto  
+│   ├── analisis_datos.md             
+│   │   # Análisis exploratorio de los datos (EDA)  
+│   ├── arquitectura.md               
+│   │   # Diseño del modelo y arquitectura de la solución  
+│   ├── optimizacion.md               
+│   │   # Proceso de optimización de hiperparámetros  
+│   ├── consideraciones_eticas.md     
+│   │   # Evaluación ética y análisis de sesgos del modelo  
+│   └── manual_usuario.md             
+│       # Guía de uso de la aplicación (interfaz Streamlit)  
+│
+├── data/                             
+│   # Carpeta que contiene los datos del proyecto  
+│   ├── raw/                          
+│   │   # Datos originales sin procesar (si aplica)  
+│   ├── processed/                    
+│   │   # Datos procesados o balanceados listos para modelado  
+│   └── README.md                     
+│       # Descripción del contenido y formato de los datos  
+│
+├── notebooks/                        
+│   # Jupyter Notebooks utilizados en el desarrollo  
+│   ├── 01_exploracion.ipynb          
+│   │   # Exploración y análisis de los datos (EDA)  
+│   ├── 02_preprocesamiento.ipynb     
+│   │   # Limpieza, imputación y balanceo de clases  
+│   ├── 03_modelado.ipynb             
+│   │   # Entrenamiento inicial de modelos supervisados  
+│   ├── 04_optimizacion.ipynb         
+│   │   # Ajuste de hiperparámetros y validación cruzada  
+│   └── 05_evaluacion.ipynb           
+│       # Evaluación final y comparación de modelos  
+│
+├── src/                              
+│   # Código fuente del proyecto (scripts principales)  
+│   ├── __init__.py                   
+│   ├── data_processing.py            
+│   │   # Funciones para limpieza, imputación y balanceo  
+│   ├── model.py                      
+│   │   # Definición del modelo (Random Forest y otros)  
+│   ├── train.py                      
+│   │   # Script de entrenamiento del modelo  
+│   ├── evaluate.py                   
+│   │   # Script de evaluación y métricas de rendimiento  
+│   └── utils.py                      
+│       # Funciones auxiliares y herramientas de soporte  
+│
+├── models/                           
+│   # Modelos entrenados y sus versiones  
+│   ├── best_model.pkl                
+│   │   # Modelo final seleccionado  
+│   ├── model_v1.pkl                  
+│   │   # Versión anterior o inicial del modelo  
+│   └── README.md                     
+│       # Descripción de los modelos guardados  
+│
+├── app/                              
+│   # Aplicación principal del sistema (interfaz Streamlit)  
+│   ├── app.py                        
+│   │   # Script principal de la interfaz Streamlit  
+│   ├── requirements.txt              
+│   │   # Dependencias específicas para la aplicación  
+│   └── assets/                       
+│       # Recursos visuales e imágenes de la app  
+│       ├── interfaz_demo.png         
+│       ├── metricas.png              
+│       └── logo_proyecto.png         
+│
+├── tests/                            
+│   # Pruebas unitarias y validación del código  
+│   ├── test_data_processing.py       
+│   │   # Pruebas para funciones de procesamiento  
+│   ├── test_model.py                 
+│   │   # Pruebas de entrenamiento y predicción del modelo  
+│   └── test_app.py                   
+│       # Pruebas de la aplicación Streamlit  
+│
+└── results/                          
+    # Resultados generados por el modelo  
+    ├── figures/                      
+    │   # Gráficos de evaluación y visualizaciones  
+    ├── metrics/                      
+    │   # Reportes y métricas de rendimiento  
+    └── reports/                      
+        # Documentos finales, conclusiones y resúmenes
+```
 
 ---
 
