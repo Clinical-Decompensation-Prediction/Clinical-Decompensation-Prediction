@@ -77,11 +77,10 @@ Se utilizó un **Random Forest Classifier** por su capacidad de manejar variable
 - Sin SMOTE ni sobremuestreo para mantener distribución real.  
 
 ### Métricas
-- Accuracy  
+- F1 score (macro)
 - Precision (macro)  
-- Recall (macro)  
-- F1 (macro)  
-- Matriz de confusión (clases: -1, 0, 1, 2)  
+- Recall (macro)
+- Matriz de confusión (clases: -1, 0, 1, 2) 
 
 ---
 
