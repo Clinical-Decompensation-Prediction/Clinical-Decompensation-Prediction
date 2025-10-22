@@ -94,8 +94,15 @@ Se utilizó un **Random Forest Classifier** por su capacidad de manejar variable
 | Recall (macro) | **0.978** |
 | F1 (macro) | **0.978** |
 
--Matriz de Confusión
-![Métricas del modelo](assets/matriz_confusion.png)
+
+
+### 📊 Matriz de Confusión
+
+<p align="center">
+  <img src="assets/matriz_confusion.png" width="450" alt="Métricas del modelo">
+</p>
+<p align="center"><em>Figura 1. Matriz de confusión del modelo Random Forest.</em></p>
+
 
 
 
