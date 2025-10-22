@@ -62,7 +62,7 @@ Se utilizó un **Random Forest Classifier** por su capacidad de manejar variable
 
 ### Preprocesamiento
 - Imputación de valores faltantes mediante reglas médico-realistas, basada en el comportamiento clínico esperado de pacientes con enfermedades crónicas.
-- Creación de variable derivada: `pulse_pressure = systolic_bp - diastolic_bp`.  
+- Creación de variable derivada: `pulse_pressure = systolic_bp - diastolic_bp`. Creación de Variable `Target` para analizar los pacientes con las patologías
 - Balanceo de clases con `class_weight='balanced'`.  
 - División estratificada 75 % entrenamiento / 25 % prueba.  
 
