@@ -172,8 +172,8 @@ El modelo busca minimizar sesgos mediante balanceo y control de clases minoritar
 ### 👥 Autores y Contribuciones
 | Nombre | Rol |
 |----------------------------------|--------------------------------------------------------------|
-| **Fernando Xavier Montaño Cárdenas** | Desarrollo del modelo, interfaz Streamlit, documentación, validación experimental. |
-| **María Fernanda Bolaños** | Soporte en análisis de datos, revisión de métricas y validación clínica del sistema. |
+| **Fernando Xavier Montaño Cárdenas** | Construcción del dataset en Python (extracción, limpieza, fusión de datos sintéticos y reales), implementación del pipeline de preprocesamiento (imputación, estandarización, balanceo y variables derivadas), prueba de datasets, desarrollo del modelo base con RandomForestClassifier, validación cruzada y métricas de desempeño, optimización de hiperparámetros con RandomizedSearchCV, integración del sistema en Streamlit para visualización de resultados en tiempo real con diseño visual del prototipo, análisis ético del uso de datos simulados y reales, documentación y control de versiones en GitHub. |
+| **María Fernanda Bolaños Escandón** | Análisis del estado del arte, identificación de variables clínicas relevantes para el modelado predictivo, análisis técnico y ético del uso de datos simulados y reales, análisis de sensibilidad e interacciones de hiperparámetros, entrenamiento del modelo meta con RandomForestRegressor, automatización del tracking de métricas, exportación de resultados, criterios de control de calidad en la implementación y validación del sistema, diseño visual del prototipo, creación del logo, documentación, validación de resultados, documentación y control de versiones en GitHub. |
 
 ---
 
