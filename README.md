@@ -258,12 +258,9 @@ prediccion_clinica/
 
 ### ⚖️ Consideraciones Éticas
 
-Los datos fueron anonimizados y se usan únicamente con fines académicos.
-El sistema no sustituye la valoración médica profesional.
-Las predicciones sirven como apoyo a la toma de decisiones clínicas.
-Debe haber validación institucional antes de su uso real.
-Se respeta el principio de IA responsable: transparencia, no maleficencia, justicia y explicabilidad.
-El modelo busca minimizar sesgos mediante balanceo y control de clases minoritarias.
+Los datos utilizados en este proyecto fueron previamente anonimizados y se emplean exclusivamente con fines académicos. Este sistema no reemplaza la valoración médica profesional ni constituye una herramienta diagnóstica definitiva. Las predicciones generadas deben considerarse como apoyo complementario para la toma de decisiones clínicas, bajo supervisión profesional calificada. Cualquier implementación real debe contar con validación institucional previa y cumplir con normativas éticas y regulatorias vigentes. Se advierte que un uso inadecuado o sin supervisión médica puede tener consecuencias negativas. Se recomienda discreción y responsabilidad, especialmente si el sistema llega a ser consultado por pacientes o terceros no especializados.
+
+El desarrollo se alinea con los principios de inteligencia artificial responsable: transparencia, no maleficencia, justicia y explicabilidad. Se aplicaron técnicas de balanceo y control de clases para minimizar sesgos y favorecer la equidad en los resultados.
 
 ---
 
