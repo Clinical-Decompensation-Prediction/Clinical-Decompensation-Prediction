@@ -288,10 +288,10 @@ A nuestros familiares, por su apoyo incondicional, paciencia y constante motivac
 
 ### Referencias
 
-Pedregosa, F. et al. (2011). Scikit-learn: Machine Learning in Python. Journal of Machine Learning Research, 12, 2825–2830.
+[Pedregosa, F. et al. (2011). Scikit-learn: Machine Learning in Python. Journal of Machine Learning Research, 12, 2825–2830.](https://www.kaggle.com/code/danishmubashar/diabetes-hypertension-predict-acc-97)
 
 Streamlit Inc. (2023). Streamlit Documentation. https://docs.streamlit.io/
 
-World Health Organization (2024). Global report on diabetes and hypertension.
 
-Fernández, A. (2022). Machine Learning para la predicción clínica en salud digital. Universidad de Buenos Aires.
+
+
