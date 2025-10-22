@@ -58,7 +58,7 @@ El monitoreo continuo de pacientes con enfermedades crónicas genera grandes vol
 ## 🧠 Metodología
 
 ### Tipo de modelo
-Se utilizó un **Random Forest Classifier** por su capacidad de manejar variables correlacionadas y evitar sobreajuste sin sobremuestreo artificial.
+Se utilizó un **Random Forest Classifier** por su capacidad de manejar variables correlacionadas y evitar sobreajuste sin sobremuestreo artificial. Esta elección fue especialmente adecuada para un proyecto de clasificación multiclase, dada su robustez y buen desempeño en contextos con múltiples categorías objetivo.
 
 ### Preprocesamiento
 - Imputación de valores faltantes con la mediana (`SimpleImputer`).  
