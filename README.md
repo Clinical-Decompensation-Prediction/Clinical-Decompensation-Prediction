@@ -128,7 +128,6 @@ pip install -r requirements.txt
 - pip install -r requirements.txt
 
 2. Correr el programa
-Ejecutar la aplicación Streamlit
 
 3. Ubicar la carpeta del proyecto donde está el archivo principal y ejecutar:
 streamlit run app.py
