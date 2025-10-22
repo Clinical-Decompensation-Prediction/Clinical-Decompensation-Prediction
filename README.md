@@ -36,10 +36,11 @@ El sistema aborda la necesidad de **predecir de manera temprana descompensacione
 El monitoreo continuo de pacientes con enfermedades crónicas genera grandes volúmenes de datos. Sin herramientas inteligentes, estos datos permanecen infrautilizados. Este sistema busca **convertir información fisiológica en conocimiento clínico accionable**.
 
 **Usuarios objetivo:**  
-- Profesionales de la salud (médicos, enfermeras, analistas clínicos).  
+- Profesionales de la salud (médicos, enfermeras, analistas clínicos y gestores clínicos).  
 - Investigadores en salud digital.  
 - Plataformas de monitoreo remoto y telemedicina.  
-
+- Pacientes con enfermedades crónicas (diabetes tipo 2, hipertensión y/o comorbilidad) 
+- Desarrolladores e investigadores de IA clínica
 ---
 
 ## 📊 Dataset
