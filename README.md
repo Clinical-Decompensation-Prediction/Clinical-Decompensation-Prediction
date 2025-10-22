@@ -122,6 +122,20 @@ git clone https://github.com/Clinical-Decompensation-Prediction/Clinical-Decompe
 cd Clinical Descompensation Prediction
 pip install -r requirements.txt
 ```
+### Comandos para ejecutar el proyecto
+1. Instalar dependencias (solo la primera vez)
+- pip install streamlit
+- pip install -r requirements.txt
+
+2. Correr el programa
+Ejecutar la aplicación Streamlit
+
+3. Ubicar la carpeta del proyecto donde está el archivo principal y ejecutar:
+streamlit run app.py
+
+4. Ver la aplicación e interactuar
+Se abrirá automáticamente en el navegador.
+http://localhost:8501
 
 ### 📗 Ejemplo de uso
 
