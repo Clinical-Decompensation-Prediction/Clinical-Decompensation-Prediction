@@ -132,9 +132,7 @@ pip install -r requirements.txt
 3. Ubicar la carpeta del proyecto donde está el archivo principal y ejecutar:
 streamlit run app.py
 
-4. Ver la aplicación e interactuar
-
-Se abrirá automáticamente en el navegador.
+4. Ver la aplicación e interactuar, se abrirá automáticamente en el navegador.
 http://localhost:8501
 
 ### 📗 Ejemplo de uso
