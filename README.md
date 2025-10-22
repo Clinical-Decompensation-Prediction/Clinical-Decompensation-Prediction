@@ -184,8 +184,10 @@ Puede utilizarse y modificarse libremente con fines académicos o de investigaci
 
 ---
 
-### 🙏 Agradecimientos y Referencias
-Agradecimientos
+### 🙏 Agradecimientos
+Queremos expresar nuestro sincero agradecimiento a la Universidad de Especialidades Espíritu Santo (UEES) y  todas las profesoras y profesores por brindarnos la formación, el acompañamiento académico y los recursos necesarios para llevar a cabo este proyecto.
+
+A nuestros familiares, por su apoyo incondicional, paciencia y constante motivación a lo largo de este camino. Este trabajo no solo marca el cierre de una etapa académica, sino también el reflejo del esfuerzo compartido y del aprendizaje conjunto.
 
 ---
 
