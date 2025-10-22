@@ -94,6 +94,7 @@ Se utilizó un **Random Forest Classifier** por su capacidad de manejar variable
 | Recall (macro) | **0.978** |
 | F1 (macro) | **0.978** |
 
+-Matriz de Confusión
 ![Métricas del modelo](assets/matriz_confusion.png)
 
 
