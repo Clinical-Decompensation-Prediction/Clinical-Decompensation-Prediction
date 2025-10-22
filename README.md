@@ -133,6 +133,7 @@ pip install -r requirements.txt
 streamlit run app.py
 
 4. Ver la aplicación e interactuar
+
 Se abrirá automáticamente en el navegador.
 http://localhost:8501
 
