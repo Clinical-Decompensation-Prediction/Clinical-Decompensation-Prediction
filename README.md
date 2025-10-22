@@ -94,6 +94,8 @@ Se utilizó un **Random Forest Classifier** por su capacidad de manejar variable
 | Recall (macro) | **0.978** |
 | F1 (macro) | **0.978** |
 
+![Métricas del modelo](assets/![Métricas del modelo](assets/metricas.png).png)
+
 > El modelo mejora un 8 % en F1 frente a un baseline de regresión logística sin balanceo.
 
 **Variables más influyentes:** HbA1c, presión sistólica y glucosa.  
