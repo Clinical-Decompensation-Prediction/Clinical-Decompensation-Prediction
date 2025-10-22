@@ -118,8 +118,8 @@ Se utilizó un **Random Forest Classifier** por su capacidad de manejar variable
 ### Instalación
 
 ```bash
-git clone https://github.com/tuusuario/prediccion_clinica.git
-cd prediccion_clinica
+git clone https://github.com/Clinical-Decompensation-Prediction/Clinical-Decompensation-Prediction.git
+cd Clinical Descompensation Prediction
 pip install -r requirements.txt
 ```
 
