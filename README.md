@@ -113,7 +113,7 @@ Se utilizó un **Random Forest Classifier** por su capacidad de manejar variable
 
 ### Requisitos
 - Python ≥ 3.8  
-- Navegador moderno (Chrome, Edge, Firefox)
+- Navegador moderno (Chrome, Edge, Firefox u otros)
 
 ### Instalación
 
