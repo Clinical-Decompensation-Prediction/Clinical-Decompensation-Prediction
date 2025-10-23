@@ -104,7 +104,7 @@ RandomForestClassifier(
 
 | Métrica | Antes *(Default RF – sobreajustado)* | Después *(Optimizado)* | Cambio |
 |:--|:--:|:--:|:--:|
-| **Accuracy** | 0.978 | 0.934 | 🔻 **–4.4 pts** |
+| **Accuracy** | 0.978 | 0.938 | 🔻 **–4.0 pts** |
 | **Precision (macro)** | 0.978 | 0.938 | 🔻 **–4.0 pts** |
 | **Recall (macro)** | 0.978 | 0.934 | 🔻 **–4.4 pts** |
 | **F1 (macro)** | 0.978 | 0.934 | 🔻 **–4.4 pts** |
@@ -115,6 +115,7 @@ pero el modelo gana **estabilidad entre entrenamiento y test**,
 
 
 ---
+
 
 
 
