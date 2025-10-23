@@ -88,10 +88,9 @@ Se utilizó un **Random Forest Classifier** por su capacidad de manejar variable
 
 | Métrica | Valor |
 |----------|--------|
-| Accuracy | **0.934** |
-| Precision (macro) | **0.938** |
-| Recall (macro) | **0.934** |
-| F1 (macro) | **0.934** |
+| Precision | **0.938** |
+| Recall | **0.934** |
+| F1 | **0.934** |
 
 
 
