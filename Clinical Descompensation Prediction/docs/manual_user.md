@@ -3,24 +3,19 @@
 La aplicación fue desarrollada en **Streamlit** y cuenta con un entorno simple e interactivo que facilita el análisis clínico predictivo.  
 A continuación, se describen los pasos principales para el uso correcto del sistema:
 
-1. **Inicio:**  
-   - Ejecuta el comando `streamlit run app.py` para abrir la interfaz en el navegador.  
-   - Espera unos segundos mientras se carga el modelo y los datos clínicos.  
-
-2. **Visualización general:**  
+1. **Visualización general:**  
    - En el menú lateral o superior, selecciona la pestaña que desees analizar.  
    - Cada pestaña contiene opciones y gráficas específicas para el tipo de análisis que se quiera realizar.
 
-3. **Análisis individual:**  
+2. **Análisis individual:**  
    - En la pestaña *Explorador por Paciente*, selecciona el ID del paciente y revisa la evolución de sus métricas fisiológicas.
 
-4. **Simulación de próxima visita:**  
+3. **Simulación de próxima visita:**  
    - En la pestaña *Simulación (Próxima visita)*, introduce nuevos valores o modifica las variables del paciente para predecir su posible estado futuro.
 
-5. **Revisión de resultados:**  
+4. **Revisión de resultados:**  
    - Observa los gráficos, métricas y tablas generadas para interpretar los posibles diagnósticos o riesgos clínicos.
 
-📸 *(Aquí se colocarán las imágenes que acompañen cada paso del proceso, mostrando el menú principal y las pestañas de la interfaz.)*
 
 ---
 
@@ -28,11 +23,26 @@ A continuación, se describen los pasos principales para el uso correcto del sis
 
 En esta sección se insertarán capturas reales de la interfaz con anotaciones que describan las funciones principales:
   
-- **Explorador por paciente:** ejemplo de evolución de variables.  
-- **Simulación:** visualización de resultados al cambiar valores.  
+- **Explorador por paciente:** ejemplo de evolución de variables.
+
+<p align="center">
+<img src="results/figures/explorador_paciente.png" width="550" alt="Matriz de confusión del modelo">
+</p>
+<p align="center"><em>Figura 1. Explorador por Paciente.</em></p> 
+
+- **Simulación:** visualización de resultados al cambiar valores.
+
+<p align="center">
+ <img src="results/figures/estimacion_riesgo_prox.png" width="550" alt="Matriz de confusión del modelo">
+</p>
+<p align="center"><em>Figura 2. Explorador por Paciente.</em></p>
 - **Acerca de:** parámetros, clases y distribución de datos.
 
-📍 *(Cada imagen incluirá notas explicativas o flechas indicando los botones y gráficos más relevantes.)*
+<p align="center">
+<img src="results/figures/acerca_de.png" width="500" alt="Matriz de confusión del modelo">
+</p>
+<p align="center"><em>Figura 3. Explorador por Paciente.</em></p>
+
 
 ---
 
@@ -84,4 +94,5 @@ Para soporte técnico o consultas sobre el sistema:
 - **María Fernanda Bolaños**
 
 📧 **Correo de contacto:** soporte.prediccionclinica@gmail.com  
+
 🌐 **Repositorio oficial:** [GitHub - prediccion_clinica](https://github.com/Clinical-Decompensation-Prediction/Clinical-Decompensation-Prediction.git)
