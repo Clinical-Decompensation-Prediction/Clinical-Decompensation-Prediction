@@ -61,15 +61,19 @@ Durante el análisis exploratorio se generaron las siguientes **6 visualizacione
 | Nº | Gráfico | Objetivo |
 |----|----------|----------|
 | 1️⃣ | Histograma de `age` | Examinar la distribución etaria de la muestra. |
-| 2️⃣ | Boxplot de `blood_glucose_level` por `target` | Observar diferencias de glucosa entre clases. |
-| 3️⃣ | Heatmap de correlaciones numéricas | Evaluar relaciones entre variables fisiológicas. |
-| 4️⃣ | Dispersión `bmi` vs `blood_glucose_level` coloreada por `target` | Analizar patrones metabólicos entre grupos clínicos. |
+| 2️⃣ | Histograma de `hbA1c` | Examinar la distribución hemoglobina de la muestra. |
+| 3️⃣ | Histograma de `blood_glucose` | Examinar la distribución glucosa de la muestra. |
+| 4️⃣ | Distribución de Diabetes | 
 | 5️⃣ | KDE de `pulse_pressure` | Comparar distribución de presión arterial entre clases. |
-| 6️⃣ | Countplot de `target` | Visualizar el equilibrio de clases obtenido tras SMOTE-ENN. |
+| 6️⃣ | Matriz de Confusión | Evaluación de modelos de clasificación |
 
-📁 Los gráficos fueron exportados a la carpeta:  
+Adicionalmente, se pueden observar más métricas.  
+
+📁 **Los gráficos fueron exportados a la carpeta:**  
 `results/metrics/`  
-y documentados en el notebook `01_exploracion.ipynb`.
+
+🧠 **Documentación:**  
+Los resultados están registrados en el notebook `01_exploracion.ipynb`.
 
 ---
 
@@ -147,5 +151,6 @@ Ambos valores fueron **conservados**, ya que representan condiciones clínicas r
 - `data/processed/dataset_balanceado_SMOTEENN.csv` — Dataset final utilizado para entrenamiento.  
 
  
+
 
 
