@@ -26,7 +26,7 @@ En esta sección se insertarán capturas reales de la interfaz con anotaciones q
 - **Explorador por paciente:** ejemplo de evolución de variables.
 
 <p align="center">
-<img src="results/figures/explorador_paciente.png" width="550" alt="Matriz de confusión del modelo">
+<img src="/results/figures/explorador_paciente.png" width="550">
 </p>
 <p align="center"><em>Figura 1. Explorador por Paciente.</em></p> 
 
@@ -96,3 +96,4 @@ Para soporte técnico o consultas sobre el sistema:
 📧 **Correo de contacto:** soporte.prediccionclinica@gmail.com  
 
 🌐 **Repositorio oficial:** [GitHub - prediccion_clinica](https://github.com/Clinical-Decompensation-Prediction/Clinical-Decompensation-Prediction.git)
+
