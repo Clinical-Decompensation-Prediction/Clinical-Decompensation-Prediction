@@ -156,6 +156,120 @@ Desarrollada en **Streamlit**, con cuatro secciones principales:
 | 🔮 **Simulación (Próxima visita)** | Estimación del riesgo futuro con nuevos valores ingresados. |
 | 📘 **Acerca de:** | Presenta la información técnica del modelo, las clases utilizadas, la distribución de datos y los parámetros empleados en el entrenamiento. |
 
+## 🏥 Descripción general
+CliniCareAI es una aplicación de apoyo a la toma de decisiones clínicas que utiliza modelos de **aprendizaje automático supervisado** para estimar el riesgo de descompensaciones en pacientes con enfermedades crónicas.  
+El sistema permite explorar historiales clínicos, simular próximas visitas y revisar información general del proyecto.
+
+---
+
+## 🧭 Navegación principal
+
+La interfaz principal cuenta con tres secciones accesibles desde la parte superior del panel:
+
+### 👤 Explorador por Paciente  
+Permite ingresar un ID de paciente y visualizar su evolución clínica en distintas visitas.  
+- Se muestran gráficos de tendencias de variables como **glucosa (mg/dL)**, **HbA1c (%)** y **presión sistólica (mmHg)**.  
+- En la parte superior se indica el número de visitas encontradas.
+
+<p align="center">
+ <img src="results/figures/explorador_paciente.png" width="550" alt="Matriz de confusión del modelo">
+</p>
+<p align="center"><em>Figura 2. Explorador por Paciente.</em></p>
+
+📊 **Ejemplo visual:**  
+El sistema muestra la evolución temporal de los parámetros fisiológicos del paciente seleccionado, facilitando el análisis comparativo entre visitas.
+
+---
+
+### 🔮 Simulación (Próxima visita)  
+En esta sección se pueden introducir manualmente signos vitales y valores de laboratorio (edad, glucosa, HbA1c, presión sistólica, presión diastólica e IMC).  
+
+1. Ingresa los valores clínicos según el rango sugerido (percentiles 1–99 del dataset).  
+2. Presiona **“Estimar Riesgo Próximo”** para calcular el riesgo inmediato.  
+3. El sistema mostrará la probabilidad de pertenecer a cada clase:
+
+| Código | Clase |
+|:-------:|:------|
+| -1 | Sin enfermedad |
+| 0 | Diabetes |
+| 1 | Hipertensión |
+| 2 | Ambas |
+
+📈 **Resultado:**  
+Se despliega un gráfico de barras con las probabilidades y una alerta de resultado, por ejemplo:  
+- 🟢 *Predicción: Sin enfermedad*  
+- 🔴 *Predicción: Riesgo de diabetes / hipertensión*
+
+<p align="center">
+ <img src="results/figures/estimacion_riesgo_prox.png" width="550" alt="Matriz de confusión del modelo">
+</p>
+<p align="center"><em>Figura 3. Explorador por Paciente.</em></p>
+
+---
+
+### 📘 Acerca de  
+Contiene la información general del proyecto, su propósito académico y las advertencias sobre su uso.  
+
+📄 **Contenido principal:**
+- Proyecto desarrollado como parte de la **Maestría en Inteligencia Artificial** de la **Universidad de Especialidades Espíritu Santo (UEES)**.  
+- Utiliza modelos de **aprendizaje supervisado** y **series de tiempo** para analizar posibles descompensaciones clínicas.  
+- Enfatiza que el sistema **no debe utilizarse con fines médicos reales**, sino como un **prototipo académico**.
+
+<p align="center">
+<img src="results/figures/acerca_de.png" width="500" alt="Matriz de confusión del modelo">
+</p>
+<p align="center"><em>Figura 4. Explorador por Paciente.</em></p>
+
+---
+
+## 🔍 Panel lateral izquierdo
+El panel lateral presenta información constante sobre el proyecto y dataset utilizado:
+
+**Proyecto:** Descompensaciones en pacientes con Diabetes, Hipertensión o Comorbilidad.  
+**Dataset:** `dataset_balanceado_SMOTEENN.csv`  
+
+**Clases del modelo:**
+- -1 → Sin enfermedad  
+- 0 → Diabetes  
+- 1 → Hipertensión  
+- 2 → Ambas  
+
+<p align="center">
+ <img src="results/figures/informacion.png" width="250" alt="Matriz de confusión del modelo">
+</p>
+<p align="center"><em>Figura 5. Explorador por Paciente.</em></p>
+
+---
+
+## 📊 Resultados del modelo
+El sistema muestra las métricas principales obtenidas del modelo **Random Forest**:
+
+| Métrica | Valor |
+|:--------:|:------:|
+| Precision | **0.938** |
+| Recall | **0.934** |
+| F1 Score | **0.934** |
+
+🧩 Además, se visualiza la **matriz de confusión**, la cual permite observar el equilibrio entre las clases predichas por el modelo.
+
+---
+
+## ⚠️ Limitaciones y advertencias
+- CliniCareAI es un **prototipo académico**, no un sistema médico validado.  
+- Los resultados son **estimaciones** basadas en datos históricos y simulados.  
+- No sustituye la **valoración profesional** ni la **consulta médica**.  
+- Su uso clínico requiere **validación institucional** previa.
+
+---
+
+## 💡 Recomendaciones
+- Ingresar valores dentro del rango sugerido para evitar predicciones fuera del dominio de entrenamiento.  
+- Utilizar la aplicación únicamente con fines **educativos o de investigación**.  
+- No emplear los resultados como diagnóstico médico o sustituto de una evaluación profesional.
+
+
+---
+
 ---
 
 ### 📁 Estructura del Proyecto
