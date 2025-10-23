@@ -1,4 +1,4 @@
-## 2️⃣ Guía paso a paso para usar la interfaz  
+## 1️⃣ Guía paso a paso para usar la interfaz  
 
 La aplicación fue desarrollada en **Streamlit** y cuenta con un entorno simple e interactivo que facilita el análisis clínico predictivo.  
 A continuación, se describen los pasos principales para el uso correcto del sistema:
@@ -19,7 +19,7 @@ A continuación, se describen los pasos principales para el uso correcto del sis
 
 ---
 
-## 3️⃣ Capturas de pantalla anotadas  
+## 2️⃣ Capturas de pantalla anotadas  
 
 En esta sección se insertarán capturas reales de la interfaz con anotaciones que describan las funciones principales:
   
@@ -52,7 +52,7 @@ En esta sección se insertarán capturas reales de la interfaz con anotaciones q
 
 ---
 
-## 4️⃣ Explicación de funcionalidades  
+## 3️⃣ Explicación de funcionalidades  
 
 Al ingresar al sistema, el usuario encontrará un menú con las siguientes secciones principales:
 
@@ -64,7 +64,7 @@ Al ingresar al sistema, el usuario encontrará un menú con las siguientes secci
 
 ---
 
-## 5️⃣ Troubleshooting (Problemas comunes y soluciones)  
+## 4️⃣ Troubleshooting (Problemas comunes y soluciones)  
 
 | Problema | Posible causa | Solución |
 |-----------|----------------|-----------|
@@ -75,7 +75,7 @@ Al ingresar al sistema, el usuario encontrará un menú con las siguientes secci
 
 ---
 
-## 6️⃣ FAQ (Preguntas Frecuentes)  
+## 5️⃣ FAQ (Preguntas Frecuentes)  
 
 **1. ¿Puedo usar mis propios datos de pacientes?**  
 Sí. Puede reemplazar el archivo `dataset_balanceado_SMOTEENN.csv` por otro con la misma estructura de columnas.  
@@ -91,7 +91,7 @@ Puedes tomar capturas o exportar tablas desde el navegador (clic derecho → *Gu
 
 ---
 
-## 7️⃣ Información de contacto  
+## 6️⃣ Información de contacto  
 
 Para soporte técnico o consultas sobre el sistema:
 
@@ -102,5 +102,6 @@ Para soporte técnico o consultas sobre el sistema:
 📧 **Correo de contacto:** soporte.prediccionclinica@gmail.com  
 
 🌐 **Repositorio oficial:** [GitHub - prediccion_clinica](https://github.com/Clinical-Decompensation-Prediction/Clinical-Decompensation-Prediction.git)
+
 
 
