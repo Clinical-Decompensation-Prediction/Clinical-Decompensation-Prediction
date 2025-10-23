@@ -152,10 +152,9 @@ Desarrollada en **Streamlit**, con cuatro secciones principales:
 
 | Pestaña | Descripción |
 |----------|-------------|
-| 📊 **Resumen & Métricas** | Métricas de rendimiento, matriz de confusión, importancia de variables. |
 | 👤 **Explorador por Paciente** | Análisis de evolución fisiológica por ID y visita. |
 | 🔮 **Simulación (Próxima visita)** | Estimación del riesgo futuro con nuevos valores ingresados. |
-| 🧪 **Detalles del Modelo** | Reporte de rendimiento completo y distribución de clases. |
+| 📘 **Acerca de:** | Presenta la información técnica del modelo, las clases utilizadas, la distribución de datos y los parámetros empleados en el entrenamiento. |
 
 ---
 
