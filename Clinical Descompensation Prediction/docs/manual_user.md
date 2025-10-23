@@ -23,25 +23,31 @@ A continuación, se describen los pasos principales para el uso correcto del sis
 
 En esta sección se insertarán capturas reales de la interfaz con anotaciones que describan las funciones principales:
   
-- **Explorador por paciente:** ejemplo de evolución de variables.
+- **Explorador por Paciente:** ejemplo de evolución de variables.
 
 <p align="center">
-<img src="/results/figures/explorador_paciente.png" width="550">
+  <img src="../results/figures/explorador_paciente.png" width="550" alt="Explorador por Paciente">
 </p>
-<p align="center"><em>Figura 1. Explorador por Paciente.</em></p> 
+<p align="center"><em>Figura 1. Explorador por Paciente.</em></p>
+
+---
 
 - **Simulación:** visualización de resultados al cambiar valores.
 
 <p align="center">
- <img src="results/figures/estimacion_riesgo_prox.png" width="550" alt="Matriz de confusión del modelo">
+  <img src="../results/figures/estimacion_riesgo_prox.png" width="550" alt="Simulación del riesgo próximo">
 </p>
-<p align="center"><em>Figura 2. Explorador por Paciente.</em></p>
+<p align="center"><em>Figura 2. Simulación de resultados.</em></p>
+
+---
+
 - **Acerca de:** parámetros, clases y distribución de datos.
 
 <p align="center">
-<img src="results/figures/acerca_de.png" width="500" alt="Matriz de confusión del modelo">
+  <img src="../results/figures/acerca_de.png" width="500" alt="Sección Acerca de">
 </p>
-<p align="center"><em>Figura 3. Explorador por Paciente.</em></p>
+<p align="center"><em>Figura 3. Acerca de.</em></p>
+
 
 
 ---
@@ -96,4 +102,5 @@ Para soporte técnico o consultas sobre el sistema:
 📧 **Correo de contacto:** soporte.prediccionclinica@gmail.com  
 
 🌐 **Repositorio oficial:** [GitHub - prediccion_clinica](https://github.com/Clinical-Decompensation-Prediction/Clinical-Decompensation-Prediction.git)
+
 
