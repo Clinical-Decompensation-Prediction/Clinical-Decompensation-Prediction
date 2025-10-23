@@ -97,7 +97,7 @@ Se utilizó un **Random Forest Classifier** por su capacidad de manejar variable
 ### 📊 Matriz de Confusión
 
 <p align="center">
-  <img src="Clinical Descompensation Prediction/results/metrics/matriz_confusion.png" width="450" alt="Métricas del modelo">
+ <img src="results/metrics/matriz_confusion.png" width="450" alt="Matriz de confusión del modelo">
 </p>
 <p align="center"><em>Figura 1. Matriz de confusión del modelo Random Forest.</em></p>
 
