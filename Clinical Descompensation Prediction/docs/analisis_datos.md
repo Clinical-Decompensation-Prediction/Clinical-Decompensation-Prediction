@@ -63,8 +63,8 @@ Durante el análisis exploratorio se generaron las siguientes **6 visualizacione
 | 1️⃣ | Histograma de `age` | Examinar la distribución etaria de la muestra. |
 | 2️⃣ | Histograma de `hbA1c` | Examinar la distribución hemoglobina de la muestra. |
 | 3️⃣ | Histograma de `blood_glucose` | Examinar la distribución glucosa de la muestra. |
-| 4️⃣ | Distribución de Diabetes | 
-| 5️⃣ | KDE de `pulse_pressure` | Comparar distribución de presión arterial entre clases. |
+| 4️⃣ | Distribución de Diabetes | Analizar pacinetes con la patología. |
+| 5️⃣ | Distribución de `Target` | Analizar observaciones de cada categoría. |
 | 6️⃣ | Matriz de Confusión | Evaluación de modelos de clasificación |
 
 Adicionalmente, se pueden observar más métricas.  
@@ -151,6 +151,7 @@ Ambos valores fueron **conservados**, ya que representan condiciones clínicas r
 - `data/processed/dataset_balanceado_SMOTEENN.csv` — Dataset final utilizado para entrenamiento.  
 
  
+
 
 
 
