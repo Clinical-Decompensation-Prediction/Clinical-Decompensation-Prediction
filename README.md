@@ -68,10 +68,10 @@ Se utilizó un **Random Forest Classifier** por su capacidad de manejar variable
 - División estratificada 75 % entrenamiento / 25 % prueba.  
 
 ### Optimización
-- `max_depth = None (sin límite)` óptimo
+- `max_depth = 15` óptimo
 - `min_samples_split = 2`
 - `min_samples_leaf = 1`
-- `n_estimators = 300`  
+- `n_estimators = 200`  
 - `max_features='sqrt'`
 - `criterion = "gini”` óptimo 
  
@@ -88,10 +88,10 @@ Se utilizó un **Random Forest Classifier** por su capacidad de manejar variable
 
 | Métrica | Valor |
 |----------|--------|
-| Accuracy | **0.978** |
-| Precision (macro) | **0.978** |
-| Recall (macro) | **0.978** |
-| F1 (macro) | **0.978** |
+| Accuracy | **0.934** |
+| Precision (macro) | **0.938** |
+| Recall (macro) | **0.934** |
+| F1 (macro) | **0.934** |
 
 
 
