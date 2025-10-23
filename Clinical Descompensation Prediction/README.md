@@ -172,7 +172,7 @@ Permite ingresar un ID de paciente y visualizar su evolución clínica en distin
 - En la parte superior se indica el número de visitas encontradas.
 
 <p align="center">
- <img src="results/figures/explorador_paciente.png" width="550" alt="Matriz de confusión del modelo">
+ <img src="results/figures/explorador_paciente.png" width="550"">
 </p>
 <p align="center"><em>Figura 2. Explorador por Paciente.</em></p>
 
@@ -201,13 +201,13 @@ Se despliega un gráfico de barras con las probabilidades y una alerta de result
 - 🔴 *Predicción: Riesgo de diabetes / hipertensión*
 
 <p align="center">
- <img src="results/figures/estimacion_riesgo_prox.png" width="550" alt="Matriz de confusión del modelo">
+ <img src="results/figures/estimacion_riesgo_prox.png" width="550"">
 </p>
-<p align="center"><em>Figura 3. Explorador por Paciente.</em></p>
+<p align="center"><em>Figura 3. Simulación (Próxima visita).</em></p>
 
 ---
 
-### 📘 Acerca de  
+### 📘 Acerca de:  
 Contiene la información general del proyecto, su propósito académico y las advertencias sobre su uso.  
 
 📄 **Contenido principal:**
@@ -216,9 +216,9 @@ Contiene la información general del proyecto, su propósito académico y las ad
 - Enfatiza que el sistema **no debe utilizarse con fines médicos reales**, sino como un **prototipo académico**.
 
 <p align="center">
-<img src="results/figures/acerca_de.png" width="500" alt="Matriz de confusión del modelo">
+<img src="results/figures/acerca_de.png" width="500" ">
 </p>
-<p align="center"><em>Figura 4. Explorador por Paciente.</em></p>
+<p align="center"><em>Figura 4. Acerca de: .</em></p>
 
 ---
 
@@ -235,9 +235,9 @@ El panel lateral presenta información constante sobre el proyecto y dataset uti
 - 2 → Ambas  
 
 <p align="center">
- <img src="results/figures/informacion.png" width="250" alt="Matriz de confusión del modelo">
+ <img src="results/figures/informacion.png" width="250" ">
 </p>
-<p align="center"><em>Figura 5. Explorador por Paciente.</em></p>
+<p align="center"><em>Figura 5. Panel lateral izquierdo.</em></p>
 
 ---
 
