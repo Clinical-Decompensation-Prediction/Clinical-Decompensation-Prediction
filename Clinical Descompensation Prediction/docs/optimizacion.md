@@ -100,17 +100,21 @@ RandomForestClassifier(
 
 ---
 
-## 8️⃣ Comparación Antes / Después de la Optimización
+### 8️⃣ Comparación Antes / Después de la Optimización
 
-| Métrica | Antes (default RF) | Después (optimiz.) | Mejora |
-|----------|--------------------|--------------------|--------|
-| Accuracy | 0.902 | **0.934** | +3.2 pts |
-| Precision (macro) | 0.905 | **0.938** | +3.3 pts |
-| Recall (macro) | 0.903 | **0.934** | +3.1 pts |
-| F1 (macro) | 0.904 | **0.934** | +3.0 pts |
+| Métrica | Antes *(Default RF – sobreajustado)* | Después *(Optimizado)* | Cambio |
+|:--|:--:|:--:|:--:|
+| **Accuracy** | 0.978 | 0.934 | 🔻 **–4.4 pts** |
+| **Precision (macro)** | 0.978 | 0.938 | 🔻 **–4.0 pts** |
+| **Recall (macro)** | 0.978 | 0.934 | 🔻 **–4.4 pts** |
+| **F1 (macro)** | 0.978 | 0.934 | 🔻 **–4.4 pts** |
 
-El modelo optimizado mantiene estabilidad entre entrenamiento y test, eliminando el sobreajuste previo.
+📈 Tras la optimización, las métricas disminuyen levemente,  
+pero el modelo gana **estabilidad entre entrenamiento y test**,  
+**corrigiendo el sobreajuste previo** y logrando un desempeño más **realista y generalizable**.
+
 
 ---
+
 
 
