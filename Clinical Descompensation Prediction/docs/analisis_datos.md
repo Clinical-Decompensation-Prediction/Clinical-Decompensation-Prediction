@@ -68,7 +68,7 @@ Durante el análisis exploratorio se generaron las siguientes **6 visualizacione
 | 6️⃣ | Countplot de `target` | Visualizar el equilibrio de clases obtenido tras SMOTE-ENN. |
 
 📁 Los gráficos fueron exportados a la carpeta:  
-`results/figures/`  
+`results/metrics/`  
 y documentados en el notebook `01_exploracion.ipynb`.
 
 ---
@@ -147,4 +147,5 @@ Ambos valores fueron **conservados**, ya que representan condiciones clínicas r
 - `data/processed/dataset_balanceado_SMOTEENN.csv` — Dataset final utilizado para entrenamiento.  
 
  
+
 
