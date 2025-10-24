@@ -1,0 +1,30 @@
+
+# Archivos y carpetas de entorno virtual
+venv/
+.env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos de configuración local
+.DS_Store
+.idea/
+.vscode/
+*.log
+
+# Datos grandes o privados
+dataset_balanceado_SMOTEENN.csv
+*.xlsx
+*.csv
+*.zip
+
+# Caché de Streamlit
+.streamlit/
+logs/
+cache/
+
+# Archivos temporales del sistema
+Thumbs.db
+*.bak
+*.swp
